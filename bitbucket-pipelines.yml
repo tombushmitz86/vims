@@ -1,0 +1,25 @@
+definitions:
+  services:
+    postgres:
+      image: postgres:9.6
+      environment:
+        POSTGRES_DB: 'vcmis'
+        POSTGRES_USER: 'ci'
+        POSTGRES_PASSWORD: 'ci'
+  caches:
+    venv: venv
+
+
+pipelines:
+  default:
+    - step:
+        name: Test
+        image: python:3.5
+        script:
+          - pushd server && make init && popd
+          - pushd server && VCMIS_ENV_FILE=conf/envs/ci.json make check && popd
+        services:
+          - postgres
+        caches:
+          - pip
+          - venv

@@ -1,0 +1,35 @@
+{
+    "debug": true,
+    "https": false,
+
+    "secret_key": "7&8n4dy@w&vcmc9+fpb3m*vu55i7o*zwm_hju)2+qp@fh7b=^=",
+
+    "allowed_hosts": [],
+
+    "static_root": null,
+    "staticfiles_storage": "django.contrib.staticfiles.storage.StaticFilesStorage",
+
+    "log_to_syslog": false,
+
+    "db_name": "vcmis",
+    "db_user": "vcmis",
+    "db_password": "",
+    "db_host": "",
+    "db_port": "",
+
+    "cache_backend": "django.core.cache.backends.locmem.LocMemCache",
+    "cache_location": "",
+
+    "admins": [
+        ["Alice", "alice@example.testing"],
+        ["Bob", "bob@example.testing"]
+    ],
+    "from_email": "do-not-reply@example.testing",
+
+    "email_backend": "django.core.mail.backends.console.EmailBackend",
+    "email_host": "smtp.example.testing",
+    "email_port": 597,
+    "email_use_tls": true,
+    "email_user": "my_user",
+    "email_password": "my_secret_password"
+}

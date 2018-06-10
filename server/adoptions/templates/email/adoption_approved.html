@@ -1,0 +1,23 @@
+{% load i18n %}
+
+{% block subject %}
+בקשתך לאימוץ משפחה אושרה
+{% endblock subject %}
+
+{% block text_body %}
+{% endblock text_body %}
+
+{% block html_body %}
+
+<p>
+    , שלום {{adoption.adopter.user.get_full_name}}
+    בקשתך לאימוץ משפחה מתאריך {{adoption.created_at.date}}
+    אושרה.
+
+    לקבלת פרטים נוספים הכנס
+    <a href="https://darchei-eliyahu.co.il/personal-zone/adopted/families">לאיזורך האישי</a>
+</p>
+
+<p>עמותת דרכי אליהו</p>
+
+{% endblock html_body %}

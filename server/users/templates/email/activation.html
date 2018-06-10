@@ -1,0 +1,20 @@
+{% load i18n %}
+
+{% block subject %}
+הפעלת חשבון משתמש
+{% endblock subject %}
+
+{% block text_body %}
+{% endblock text_body %}
+
+{% block html_body %}
+<p>על מנת לסיים את תהליך ההרשמה יש להפעיל את פרופיל המשתמש.</p>
+
+<p>יש להכנס לכתובת הבאה</p>
+<p><a href="{{ protocol }}://{{ domain }}/{{ url }}">{{ protocol }}://{{ domain }}/{{ url }}</a></p>
+
+<p>ברוך הבא!</p>
+
+<p>עמותת דרכי אליהו</p>
+
+{% endblock html_body %}

@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-09 12:45+0200\n"
+"PO-Revision-Date: 2018-01-12 13:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.5\n"
+
+msgid "Address"
+msgstr "כתובת"
+
+msgid "Activities"
+msgstr "פעילויות"
+
+msgid "Activity type"
+msgstr "סוג פעילות"
+
+msgid "Activity types"
+msgstr "סוגי פעילות"
+
+msgid "ID"
+msgstr "מזהה"
+
+msgid "Created at"
+msgstr "נוצר בתאריך"
+
+msgid "Modified at"
+msgstr "שונה בתאריך"
+
+msgid "Description"
+msgstr "תאור"
+
+msgid "Activity day"
+msgstr "יום פעילות"
+
+msgid "Date"
+msgstr "תאריך"
+
+msgid "Type"
+msgstr "סוג"
+
+msgid "Logistics center"
+msgstr "מרכז לוגיסטי"
+
+msgid "Display in website"
+msgstr "הצג באתר"
+
+msgid "Activity day volunteer"
+msgstr "מתנדב ליום פעילות"
+
+msgid "Activity days volunteers"
+msgstr "מתנדבים לימי פעילות"
+
+msgid "Volunteer"
+msgstr "מתנדב"
+
+msgid "Active"
+msgstr "פעיל"
+
+msgid "Activity day delivery"
+msgstr "מופע חלוקה ליום פעילות"
+
+msgid "Activity days deliveries"
+msgstr "מופעי חלוקה לימי פעילות"
+
+msgid "Delivery"
+msgstr "מופע חלוקה"
+
+msgid "Adopter's address"
+msgstr "כתובת המאמץ"
+
+msgid "Adopter's phone"
+msgstr "טלפון המאמץ"
+
+msgid "Recipient's address"
+msgstr "כתובת הנזקק"
+
+msgid "Adoptions and deliveries"
+msgstr "אימוץ וחלוקה"
+
+msgid "Adoption"
+msgstr "קשר אימוץ"
+
+msgid "Adoptions"
+msgstr "קשרי אימוץ"
+
+msgid "Adopter"
+msgstr "מאמץ"
+
+msgid "Recipient"
+msgstr "נזקק"
+
+msgid "Pending approval"
+msgstr "ממתין לאישור"
+
+msgid "Approved"
+msgstr "מאושר"
+
+msgid "Rejected"
+msgstr "דחוי"
+
+msgid "Canceled"
+msgstr "מבוטל"
+
+msgid "Status"
+msgstr "סטטוס"
+
+msgid "Status set at"
+msgstr "סטטוס נקבע בתאריך"
+
+msgid "Notes"
+msgstr "הערות"
+
+#, python-format
+msgid "Adoption %(pk)s"
+msgstr "קשר אימוץ %(pk)s"
+
+msgid "Adoption request approved"
+msgstr "בקשת אימוץ אושרה"
+
+msgid "Adoption request rejected"
+msgstr "בקשת אימוץ נדחתה"
+
+msgid "Package type"
+msgstr "סוג חבילה"
+
+msgid "Package types"
+msgstr "סוגי חבילה"
+
+msgid "Name"
+msgstr "שם"
+
+msgid "Deliveries"
+msgstr "מופעי חלוקה"
+
+msgid "Delivery from"
+msgstr "משתמש מחלק"
+
+msgid "Delivery to"
+msgstr "נזקק מקבל"
+
+msgid "Planned delivery date"
+msgstr "תאריך חלוקה מתוכנן"
+
+msgid "Package description"
+msgstr "תאור חבילה"
+
+msgid "Delivery description"
+msgstr "תאור חלוקה"
+
+msgid "Planned"
+msgstr "מתוכנן"
+
+msgid "Pending"
+msgstr "ממתין"
+
+msgid "Delivered"
+msgstr "חולק"
+
+#, python-format
+msgid "Delivery %(pk)s"
+msgstr "מופע חלוקה %(pk)s"
+
+msgid "VCMIS Administration"
+msgstr "מערכת ניהול מתנדבים"
+
+msgid "Geography"
+msgstr "גיאוגרפיה"
+
+msgid "Settlement"
+msgstr "ישוב"
+
+msgid "Settlements"
+msgstr "ישובים"
+
+msgid "Government ID"
+msgstr "מזהה ממשלתי"
+
+msgid "County government ID"
+msgstr "מזהה ממשלתי נפה"
+
+msgid "County name"
+msgstr "שם נפה"
+
+msgid "Municipality government ID"
+msgstr "מזהה ממשלתי מועצה אזורית"
+
+msgid "Municipality name"
+msgstr "שם מועצה אזורית"
+
+msgid "Street"
+msgstr "רחוב"
+
+msgid "Streets"
+msgstr "רחובות"
+
+msgid "Logistics"
+msgstr "לוגיסטיקה"
+
+msgid "Logistics centers"
+msgstr "מרכזים לוגיסטים"
+
+msgid "Street number"
+msgstr "מספר בית"
+
+msgid "Contact person"
+msgstr "איש קשר"
+
+msgid "Phone"
+msgstr "טלפון"
+
+msgid "Last delivery at"
+msgstr "תאריך חלוקה אחרון"
+
+msgid "Recipients"
+msgstr "נזקקים"
+
+msgid "first name"
+msgstr "שם פרטי"
+
+msgid "last name"
+msgstr "שם משפחה"
+
+msgid "Floor"
+msgstr "קומה"
+
+msgid "Apartment"
+msgstr "דירה"
+
+msgid "Background story"
+msgstr "סיפור רקע"
+
+msgid "Number of people"
+msgstr "מספר נפשות"
+
+msgid "Holocaust survivor"
+msgstr "ניצול שואה"
+
+msgid "Handicapped"
+msgstr "נכה"
+
+msgid "Avrech"
+msgstr "אברך"
+
+msgid "Domestic violence"
+msgstr "אלימות במשפחה"
+
+msgid "General"
+msgstr "כללי"
+
+msgid "Unhealthy"
+msgstr "בעיות בריאותיות"
+
+msgid "Single parent"
+msgstr "חד הוריות"
+
+msgid "Recipient tags"
+msgstr "תגיות נזקק"
+
+msgid "Recipient tag"
+msgstr "תגית נזקק"
+
+msgid "active"
+msgstr "פעיל"
+
+msgid "Blacklisted"
+msgstr "ברשימה שחורה"
+
+msgid "Short name"
+msgstr "שם פרטי"
+
+msgid "Full name"
+msgstr "שם מלא"
+
+#, python-brace-format
+msgid ""
+"{settlement_name}, {street_number} {street_name}, apt. {apartment}, floor "
+"{floor}"
+msgstr ""
+"{settlement_name}, {street_name} {street_number}, דירה {apartment} קומה "
+"{floor}"
+
+msgid "Address"
+msgstr "כתובת"
+
+msgid "Personal info"
+msgstr "מידע אישי"
+
+msgid "Permissions"
+msgstr "הרשאות"
+
+msgid "Important dates"
+msgstr "תאריכים משמעותיים"
+
+msgid "Users"
+msgstr "משתמשים"
+
+msgid "user"
+msgstr "משתמש"
+
+msgid "users"
+msgstr "משתמשים"
+
+msgid "email address"
+msgstr "כתובת אימייל"
+
+msgid "staff status"
+msgstr "סטאטוס איש צוות"
+
+msgid "Designates whether the user can log into this admin site."
+msgstr "מציין האם המשתמש יכול להתחבר לאתר הניהול."
+
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+"מציין האם יש להתייחס למשתמש כפעיל. יש לבטל בחירה זו במקום למחוק חשבונות "
+"משתמשים."
+
+msgid "date joined"
+msgstr "תאריך הצטרפות"
+
+msgid "User Profile"
+msgstr "פרופיל משתמש"
+
+msgid "User Profiles"
+msgstr "פרופילי משתמש"
+
+msgid "User"
+msgstr "משתמש"
+
+msgid "Zipcode"
+msgstr "מיקוד"
+
+msgid "User with same email already exists"
+msgstr "קיים כבר משתמש עם אימייל זה"
+
+#~ msgid "New immigrant"
+#~ msgstr "עולה חדש"
+
+#~ msgid "Senior citizen"
+#~ msgstr "אזרח ותיק"
